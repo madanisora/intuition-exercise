@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+solc = "0.8.20"
+verbosity = 2
+
+[profile.default.fuzz]
+runs = 256
